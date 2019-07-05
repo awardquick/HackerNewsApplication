@@ -33,7 +33,7 @@ export class ArticleComponent implements OnInit {
 
   loading: boolean;
 
-  constructor(private articleSvc: ArticleService, private datePipe: DatePipe) { }
+  constructor(private articleSvc: ArticleService) { }
 
   ngOnInit() {
     this.retrieveArticles();
