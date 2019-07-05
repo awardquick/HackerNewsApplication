@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { DatePipe } from '@angular/common';
 import { DropdownModule, LazyLoadEvent, SharedModule, PanelModule } from 'primeng/primeng';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -20,6 +20,8 @@ export class ArticleComponent implements OnInit {
   SelectItem: any;
 
   dataSource: Article[];
+
+  subscription: any;
 
   totalRecords: number;
 
@@ -47,7 +49,7 @@ export class ArticleComponent implements OnInit {
 
   async retrieveArticles() {
     let articleNumber = 600;
-    await this.articleSvc.getArticles(articleNumber).subscribe(success => {
+    this.subscription = await this.articleSvc.getArticles(articleNumber).subscribe(success => {
       if (success) {
         this.articles = this.articleSvc.articles;
         this.dataSource = this.articles;
@@ -65,7 +67,9 @@ export class ArticleComponent implements OnInit {
     }, 1000);
   }
 
-
+  ngOnDestroy() {
+  this.subscription.unsubscribe;
+}
 
  
 

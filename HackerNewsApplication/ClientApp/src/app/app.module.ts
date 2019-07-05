@@ -1,6 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
+import { CounterComponent } from './counter/counter.component';
+import { FetchDataComponent } from './fetch-data/fetch-data.component';
+import { HomeComponent } from './home/home.component';
 import { DatePipe } from '@angular/common';
 import { PaginatorModule, Paginator } from 'primeng/paginator';
 import { ButtonModule } from 'primeng/button';
@@ -22,7 +25,10 @@ import { LoadingScreenComponent } from './loading-screen/loading-screen.componen
     AppComponent,
     ArticleComponent,
     AppHeaderComponent,
-    LoadingScreenComponent
+    LoadingScreenComponent,
+    FetchDataComponent,
+    CounterComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
