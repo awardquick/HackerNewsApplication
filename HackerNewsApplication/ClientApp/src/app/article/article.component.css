@@ -1,0 +1,98 @@
+.news-image {
+  width: 75px;
+  height: 75px;
+  float: right;
+}
+.grid-author-span {
+  padding-right: 1.5px;
+}
+
+::ng-deep body .ui-dataview .ui-dataview-header  {
+  background-color: #f4f4f4;
+  color: #333333;
+  border: 1px solid #c8c8c8;
+  padding: 0.571em 1em;
+  font-weight: 700;
+  border-bottom: 0 none;
+}
+
+::ng-deep .ui-dataview .ui-paginator-top {
+  background-color: #f4f4f4;
+  border: 1px solid #c8c8c8;
+}
+
+.ui-paginator {
+  background: whitesmoke;
+}
+
+::ng-deep body .ui-dropdown {
+  background: #ffffff;
+  border: 1px solid #a6a6a6;
+  -moz-transition: border-color 0.2s;
+  -o-transition: border-color 0.2s;
+  -webkit-transition: border-color 0.2s;
+  transition: border-color 0.2s;
+}
+
+::ng-deep body .ui-dropdown-panel {
+  padding: 0;
+  border: 1px solid #c8c8c8;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+::ng-deep .search-input {
+  font-size: 14px;
+  color: #333333;
+  background: #ffffff;
+  padding: 0.429em;
+  border: 1px solid #a6a6a6;
+  -moz-transition: border-color 0.2s;
+  -o-transition: border-color 0.2s;
+  -webkit-transition: border-color 0.2s;
+  transition: border-color 0.2s;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+::ng-deep body .ui-selectbutton .ui-button .ui-button-icon-left {
+  color: #666666;
+}
+
+::ng-deep body .ui-selectbutton .ui-button:not(.ui-state-disabled):not(.ui-state-active):hover .ui-button-icon-left {
+  color: #212121;
+}
+::ng-deep body .ui-selectbutton .ui-button.ui-state-active:not(.ui-state-disabled):hover {
+  background-color: #116fbf;
+  border-color: #116fbf;
+  color: #ffffff;
+}
+
+::ng-deep body .ui-selectbutton .ui-button:not(.ui-state-disabled):not(.ui-state-active):hover {
+  background-color: #c8c8c8;
+  border-color: #c8c8c8;
+  color: #333333;
+}
+
+::ng-deep body .ui-selectbutton .ui-button {
+  background-color: #dadada;
+  border: 1px solid #dadada;
+  color: #333333;
+  -moz-transition: background-color 0.2s, box-shadow 0.2s;
+  -o-transition: background-color 0.2s, box-shadow 0.2s;
+  -webkit-transition: background-color 0.2s, box-shadow 0.2s;
+  transition: background-color 0.2s, box-shadow 0.2s;
+}
+::ng-deep body .ui-selectbutton .ui-button.ui-state-active {
+  background-color: #007ad9; 
+  border-color: #007ad9; 
+  color: #ffffff;
+}
+::ng-deep body .ui-paginator {
+  background-color: #f4f4f4;
+  border: 1px solid #c8c8c8;
+  padding: 0;
+}

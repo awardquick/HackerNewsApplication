@@ -1,0 +1,75 @@
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<ng-template *ngIf="articles.length > 1">
+  Loading Article Data..
+</ng-template>
+<p-dataView #dv [value]="articles" [lazy]="true" (onLazyLoad)="loadArticlesLazy($event)" [alwaysShowPaginator]="true" [paginator]="true" [rows]="20" [totalRecords]="totalRecords" [loading]="loading" paginatorPosition="both" filterBy="by"
+            [sortField]="time" [sortOrder]="by">
+  <p-header [style]="{'background':'whitesmoke'}" >
+    <div class="ui-helper-clearfix">
+      <div class="ui-g">
+        <div class="ui-g-12 ui-md-4">
+          <input class="search-input" type="search" pInputText placeholder="Search by Author" (keyup)="dv.filter($event.target.value)">
+        </div>
+        <div class="ui-g-6 ui-md-4 filter-container">
+          <div style="position:relative">
+          </div>
+        </div>
+        <div class="ui-g-6 ui-md-4" style="text-align:right">
+          <p-dataViewLayoutOptions></p-dataViewLayoutOptions>
+        </div>
+      </div>
+    </div>
+  </p-header>
+  <ng-template let-article pTemplate="listItem">
+    <div class="ui-g" style="padding: 2em;border-bottom: 1px solid #d9d9d9">
+      <div class="ui-g-12 ui-md-3" style="text-align:center">
+        <img class="news-image" src="../../assets/hacker.png">
+      </div>
+      <div class="ui-g-12 ui-md-8 article-details">
+        <div class="ui-g">
+          <div class="ui-g">
+            <div class="ui-g-2 ui-sm-6">
+              Title:
+            </div>
+            <div class="ui-g-10 ui-sm-6"><b>{{article.title}}</b></div>
+            <div class="ui-g-2 ui-sm-6">Author: </div>
+            <div class="ui-g-10 ui-sm-6"><b>{{article.by}}</b></div>
+            <div class="ui-g-2 ui-sm-6">Date Posted: </div>
+            <div class="ui-g-10 ui-sm-6"><b>{{article.time * 1000 | date: 'medium'}}</b></div>
+            <div class="ui-g-10 ui-sm-6"><a href={{article.url}}>Check Me Out</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="ui-g-12 ui-md-1 search-icon">
+        <button pButton type="button" icon="pi pi-search" (click)="selectArticle($event, article)"></button>
+      </div>
+    </div>
+  </ng-template>
+  <ng-template let-article pTemplate="gridItem">
+    <div style="padding:.5em" class="ui-g-12 ui-md-3">
+      <img class="news-image" src="../../assets/hacker.png">
+      <p-panel [header]="article.title" [style]="{'text-align':'center'}">
+        <div class="article-detail"><span class="grid-author-span">Author:  </span>{{article.by}}</div>
+        <div class="article-detail"><a href={{article.url}}>Check Me Out</a></div>
+        <hr class="ui-widget-content" style="border-top:0">
+        <button pButton type="button" icon="pi pi-search" (click)="selectArticle($event, article)" style="margin-top:0"></button>
+      </p-panel>
+    </div>
+  </ng-template>
+</p-dataView>
+
+<p-dialog [(visible)]="displayDialog" [responsive]="true" showEffect="fade" [modal]="true" [style]="{width: '225px', background: 'whitesmoke'}" (onAfterHide)="onDialogHide()">
+  <div class="ui-g" *ngIf="selectedArticle">
+    <div class="ui-g-12" style="text-align:center">
+      <img class="news-image" src="../../assets/hacker.png">
+    </div>
+    <div class="ui-g-4">Title: </div>
+    <div class="ui-g-8">{{selectedArticle.title}}</div>
+
+    <div class="ui-g-4">Author: </div>
+    <div class="ui-g-8">{{selectedArticle.by}}</div>
+
+    <div class="ui-g-4">Url: </div>
+    <div class="ui-g-8"><a href={{selectedArticle.url}}>Check Me Out</a></div>
+  </div>
+</p-dialog>

@@ -1,0 +1,16 @@
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApp\NewHackerNewsAppCore\bin\Debug\netcoreapp2.2\NewHackerNewsAppCore.deps.json
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApp\NewHackerNewsAppCore\bin\Debug\netcoreapp2.2\NewHackerNewsAppCore.dll
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApp\NewHackerNewsAppCore\bin\Debug\netcoreapp2.2\NewHackerNewsAppCore.pdb
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApp\NewHackerNewsAppCore\obj\Debug\netcoreapp2.2\NewHackerNewsAppCore.csproj.CoreCompileInputs.cache
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApp\NewHackerNewsAppCore\obj\Debug\netcoreapp2.2\NewHackerNewsAppCore.AssemblyInfoInputs.cache
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApp\NewHackerNewsAppCore\obj\Debug\netcoreapp2.2\NewHackerNewsAppCore.AssemblyInfo.cs
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApp\NewHackerNewsAppCore\obj\Debug\netcoreapp2.2\NewHackerNewsAppCore.dll
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApp\NewHackerNewsAppCore\obj\Debug\netcoreapp2.2\NewHackerNewsAppCore.pdb
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApplication\NewHackerNewsAppCore\bin\Debug\netcoreapp2.2\NewHackerNewsAppCore.deps.json
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApplication\NewHackerNewsAppCore\bin\Debug\netcoreapp2.2\NewHackerNewsAppCore.dll
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApplication\NewHackerNewsAppCore\bin\Debug\netcoreapp2.2\NewHackerNewsAppCore.pdb
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApplication\NewHackerNewsAppCore\obj\Debug\netcoreapp2.2\NewHackerNewsAppCore.csproj.CoreCompileInputs.cache
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApplication\NewHackerNewsAppCore\obj\Debug\netcoreapp2.2\NewHackerNewsAppCore.AssemblyInfoInputs.cache
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApplication\NewHackerNewsAppCore\obj\Debug\netcoreapp2.2\NewHackerNewsAppCore.AssemblyInfo.cs
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApplication\NewHackerNewsAppCore\obj\Debug\netcoreapp2.2\NewHackerNewsAppCore.dll
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApplication\NewHackerNewsAppCore\obj\Debug\netcoreapp2.2\NewHackerNewsAppCore.pdb

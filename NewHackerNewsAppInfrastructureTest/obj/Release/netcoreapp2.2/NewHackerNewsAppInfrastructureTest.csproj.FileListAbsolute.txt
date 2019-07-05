@@ -1,0 +1,14 @@
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApp\NewHackerNewsAppInfrastructureTest\bin\Release\netcoreapp2.2\NewHackerNewsAppInfrastructureTest.deps.json
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApp\NewHackerNewsAppInfrastructureTest\bin\Release\netcoreapp2.2\NewHackerNewsAppInfrastructureTest.dll
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApp\NewHackerNewsAppInfrastructureTest\bin\Release\netcoreapp2.2\NewHackerNewsAppInfrastructureTest.pdb
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApp\NewHackerNewsAppInfrastructureTest\bin\Release\netcoreapp2.2\NewHackerNewsAppCore.dll
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApp\NewHackerNewsAppInfrastructureTest\bin\Release\netcoreapp2.2\NewHackerNewsAppInfrastructure.dll
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApp\NewHackerNewsAppInfrastructureTest\bin\Release\netcoreapp2.2\NewHackerNewsAppInfrastructure.pdb
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApp\NewHackerNewsAppInfrastructureTest\bin\Release\netcoreapp2.2\NewHackerNewsAppCore.pdb
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApp\NewHackerNewsAppInfrastructureTest\obj\Release\netcoreapp2.2\NewHackerNewsAppInfrastructureTest.csprojAssemblyReference.cache
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApp\NewHackerNewsAppInfrastructureTest\obj\Release\netcoreapp2.2\NewHackerNewsAppInfrastructureTest.csproj.CoreCompileInputs.cache
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApp\NewHackerNewsAppInfrastructureTest\obj\Release\netcoreapp2.2\NewHackerNewsAppInfrastructureTest.AssemblyInfoInputs.cache
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApp\NewHackerNewsAppInfrastructureTest\obj\Release\netcoreapp2.2\NewHackerNewsAppInfrastructureTest.AssemblyInfo.cs
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApp\NewHackerNewsAppInfrastructureTest\obj\Release\netcoreapp2.2\NewHackerNewsAppInfrastructureTest.csproj.CopyComplete
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApp\NewHackerNewsAppInfrastructureTest\obj\Release\netcoreapp2.2\NewHackerNewsAppInfrastructureTest.dll
+C:\Users\Aaron.Ward-Quick\source\repos\HackerNewsApp\NewHackerNewsAppInfrastructureTest\obj\Release\netcoreapp2.2\NewHackerNewsAppInfrastructureTest.pdb
