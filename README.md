@@ -28,3 +28,4 @@ the APIClient and the hacker news service.
 ##### HackerNewsWebApp
 Other then the startup where all the necessary portions are tied together, the main controller logic to retrieve the articles is also held here. 
 
+This is currently hosted on https://hackernewsapplication.azurewebsites.net/
