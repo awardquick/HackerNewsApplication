@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { HomeComponent } from './home/home.component';
+import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { DatePipe } from '@angular/common';
 import { PaginatorModule, Paginator } from 'primeng/paginator';
 import { ButtonModule } from 'primeng/button';
@@ -24,6 +25,7 @@ import { LoadingScreenComponent } from './loading-screen/loading-screen.componen
   declarations: [
     AppComponent,
     ArticleComponent,
+    NavMenuComponent,
     AppHeaderComponent,
     LoadingScreenComponent,
     FetchDataComponent,
