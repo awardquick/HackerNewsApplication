@@ -1,9 +1,8 @@
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<ng-template *ngIf="articles.length > 1">
-  Loading Article Data..
-</ng-template>
-<p-dataView *ngIf="articles" #dv [value]="articles" [lazy]="true" (onLazyLoad)="loadArticlesLazy($event)" [alwaysShowPaginator]="true" [paginator]="true" [rows]="20" [totalRecords]="totalRecords" [loading]="loading" paginatorPosition="both" filterBy="by"
-            [sortField]="time" [sortOrder]="by">
+<div *ngIf="articles.length < 1">
+  <p>Loading Article Data..</p>
+</div>
+<p-dataView *ngIf="articles.length > 1" #dv [value]="articles" [lazy]="true" (onLazyLoad)="loadArticlesLazy($event)" [alwaysShowPaginator]="true" [paginator]="true" [rows]="20" [totalRecords]="totalRecords" [loading]="loading" paginatorPosition="both" filterBy="by">
   <p-header [style]="{'background':'whitesmoke'}" >
     <div class="ui-helper-clearfix">
       <div class="ui-g">
