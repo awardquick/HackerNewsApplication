@@ -2,7 +2,7 @@
 <ng-template *ngIf="articles.length > 1">
   Loading Article Data..
 </ng-template>
-<p-dataView #dv [value]="articles" [lazy]="true" (onLazyLoad)="loadArticlesLazy($event)" [alwaysShowPaginator]="true" [paginator]="true" [rows]="20" [totalRecords]="totalRecords" [loading]="loading" paginatorPosition="both" filterBy="by"
+<p-dataView *ngIf="articles" #dv [value]="articles" [lazy]="true" (onLazyLoad)="loadArticlesLazy($event)" [alwaysShowPaginator]="true" [paginator]="true" [rows]="20" [totalRecords]="totalRecords" [loading]="loading" paginatorPosition="both" filterBy="by"
             [sortField]="time" [sortOrder]="by">
   <p-header [style]="{'background':'whitesmoke'}" >
     <div class="ui-helper-clearfix">
@@ -31,11 +31,11 @@
             <div class="ui-g-2 ui-sm-6">
               Title:
             </div>
-            <div class="ui-g-10 ui-sm-6"><b>{{article.title}}</b></div>
+            <div class="ui-g-10 ui-sm-6"><b *ngIf="article">{{article.title}}</b></div>
             <div class="ui-g-2 ui-sm-6">Author: </div>
-            <div class="ui-g-10 ui-sm-6"><b>{{article.by}}</b></div>
+            <div class="ui-g-10 ui-sm-6"><b *ngIf="article">{{article.by}}</b></div>
             <div class="ui-g-2 ui-sm-6">Date Posted: </div>
-            <div class="ui-g-10 ui-sm-6"><b>{{article.time * 1000 | date: 'medium'}}</b></div>
+            <div class="ui-g-10 ui-sm-6"><b *ngIf="article">{{article.time * 1000 | date: 'medium'}}</b></div>
             <div class="ui-g-10 ui-sm-6"><a href={{article.url}}>Check Me Out</a></div>
           </div>
         </div>
